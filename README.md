@@ -1,7 +1,7 @@
 <img src="http://s27.postimg.org/5i0igk0v7/Open_Bazaar_Logo.png" width="800px"/>
 
 <img src="https://travis-ci.org/OpenBazaar/OpenBazaar.svg?branch=master" />
-[![Coverage Status](https://coveralls.io/repos/OpenBazaar/OpenBazaar/badge.png)](https://coveralls.io/r/OpenBazaar/OpenBazaar)
+[![Coverage Status](https://coveralls.io/repos/OpenBazaar/OpenBazaar/badge.png)](https://coveralls.io/r/OpenBazaar/OpenBazaar) [![Deploy with Utter.io](https://img.shields.io/badge/Utter.io-Deploy%20a%202GB%20Instance-green.svg)](https://www.stackmonkey.com/launcher/)
 
 Seed Uptime Status: (http://status.openbazaar.org/)
 
