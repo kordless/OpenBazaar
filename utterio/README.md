@@ -9,8 +9,6 @@ The following template variables are available for use in the utter.io files:
     {{ ipv4_address }}
     {{ ipv6_address }}
 
-{% if True %}
-foo
-{% endif %}
+{{ self }}
 The site supports a full set of Markdown syntax for .md files.
   
