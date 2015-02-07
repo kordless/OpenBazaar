@@ -1,7 +1,7 @@
 {
   "image": {
-    "url": "http://cloud-images.ubuntu.com/trusty/current/trusty-server-cloudimg-amd64-disk1.img",
-    "name": "Ubuntu Trusty",
+    "url": "{{ dynamic_image_url }}",
+    "name": "{{ dynamic_image_name }}",
     "container_format": "bare",
     "disk_format": "qcow2"
   },
@@ -12,7 +12,7 @@
   ],
   "post_create": [
     "#cloud-config",
-    "hostname: project",
+    "hostname: utterio",
     "manage_etc_hosts: true",
     "runcmd:",
     " - [ wget, '{{ project_url }}/master/utterio/install.sh', -O, /tmp/install.sh ]",
