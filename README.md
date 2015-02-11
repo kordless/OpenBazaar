@@ -1,6 +1,6 @@
 <img src="http://s27.postimg.org/5i0igk0v7/Open_Bazaar_Logo.png" width="800px"/>
 
-[![Deploy with Utter.io](https://img.shields.io/badge/stackmonkey-deploy%20an%20instance-green.svg?style=flat)](http://10.0.1.80/projects/)
+[![Deploy with Utter.io](https://img.shields.io/badge/stackmonkey-deploy%20an%20instance-green.svg?style=flat)](http://10.0.1.80:8079/projects/)
 
 Seed Uptime Status: (http://status.openbazaar.org/)
 
