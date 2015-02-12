@@ -61,6 +61,7 @@ monit monitor all
  
 # update the meta data on the pool directly
 . /etc/utterio
+# MY_POOL_API_ADDRESS is populated into /etc/utterio by appliance during provisioning
 curl -X PUT -d '{"openbazaar": "installed", "openbazaar_port": "'$PORT'"}' $MY_POOL_API_ADDRESS
  
 # initial start using crontab (which wipes itself when it runs)
