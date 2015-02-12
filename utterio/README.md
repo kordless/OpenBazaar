@@ -9,6 +9,10 @@ The following template variables are available for use in the utter.io files:
     {{ ipv4_address }}
     {{ ipv6_address }}
 
+You can also toggle sections of text by using the following control syntax:
+
+    {% if ipv4_address %}The IP address of the box is: {{ ipv4_address }}{% endif %}
+    
 The site supports a full set of Markdown syntax for .md files.
 
 Kord
