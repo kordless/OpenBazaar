@@ -1,7 +1,7 @@
 # Sample Project
 Edit this file to show additional information to users launching your project's instances.
 
-The following template variables are available for use in the utter.io files:
+The following template variables are available for use in the files in this directory:
 
     {{ project_name }}
     {{ project_url }}
@@ -13,7 +13,7 @@ You can also toggle sections of text by using the following control syntax:
 
     {% if ipv4_address %}The IP address of the box is: {{ ipv4_address }}{% endif %}
     
-The site supports a full set of Markdown syntax for .md files.
+The site also supports a full set of [Markdown syntax](http://daringfireball.net/projects/markdown/syntax) for the README.md file.
 
-Kord
+
   
